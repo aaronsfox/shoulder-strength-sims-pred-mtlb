@@ -1,50 +1,35 @@
-function ShoulderStrengthSims_1_GenerateModels(baselineModel,scaleFactors)
+function ShoulderStrengthSims_1_GenerateModels
     
     %Function to generate models with altered strength parameters in
-    %specific muscle groups by the factors presented uin the
-    %scaleFactors variable. This is a list of integers in decimals that
-    %represent the scale factor to apply to muscle strengths.
+    %specific muscle groups.
     %
-    %INPUTS:    baselineModel = full string path to original/baseline model to use
-    %           scaleFactors = set of integers to scale strength by (e.g. 0.9,1.1)
-    %
-    %Muscle groups that are edited:
-        %scapula_protractors = all parts of serratus anterior and pec minor
-        %external_rotators = teres minor, infraspinatus & post. deltoid
-        %scapula_retractors = all rhomboid parts, upper & middle trapezius
-        %abductors = all parts of deltoid & supraspinatus
-            %also includes upper & lower trapezius, serratus anterior as upward scapula rotators 
-        %adductors  = lattisimus dorsi, lower pec major, teres major, subscapularis, coracobrachialis
-            %also includes levator scapulae, all parts of rhomboids and pec minor as downward scapula rotators 
-        %internal_rotators = subscapularis, latissimus dorsi, teres major, pec major
-        %flexors = superior pec major, anterior deltoid, coracobrachialis
-            %also includes upper & lower trapezius, serratus anterior as upward scapula rotators 
-        %horizontal_adductors = pec major, anterior deltoid
-            %also includes all parts of serratus anterior and pec minor as scapula protractors
+    %Muscle groups that are edited [TODO - adjust these to reflect what is actually included]:
+        %...
     
     import org.opensim.modeling.*
-
-    %Get the output directory based on where the model is
-    outputDir = fileparts(baselineModel);
     
+    %Create path to baseline model
+    cd('..\..\Models');
+    modelPath = [pwd,'\'];
+    %Add geometry directory
+    ModelVisualizer.addDirToGeometrySearchPaths([pwd,'\Geometry']);
+    %Set baseline model
+    baselineModel = [modelPath,'BaselineModel.osim'];
+
+    %Set scale factors to weaken muscles
+    scaleFactors = [0.8; 0.9];
+        
     %Create strings for the muscle groups to alter
-    muscleGroups = [{'scapula_protractors'};
-        {'external_rotators'};
-        {'scapula_retractors'};
-        {'abductors'};
-        {'internal_rotators'};
-        {'flexors'};
-        {'horizontal_adductors'}];
+    muscleGroups = [{'externalRotators'};
+        {'internalRotators'};
+        {'elevators'};
+        {'horizontalAdductors'}];
     
     %Set the muscles within each group
-    muscleLists.scapula_protractors = [{'SRA1'}; {'SRA2'}; {'SRA3'}; {'PMN'}];
-    muscleLists.external_rotators = [{'TMIN'}; {'INFSP'}; {'DELT3'}];
-    muscleLists.scapula_retractors = [{'RMN'}; {'RMJ1'}; {'RMJ2'}; {'TRP1'}; {'TRP2'}; {'TRP3'}];
-    muscleLists.abductors = [{'DELT1'}; {'DELT2'}; {'DELT3'}; {'SUPSP'}; {'TRP1'}; {'TRP4'}; {'SRA1'}; {'SRA2'}; {'SRA3'}];
-    muscleLists.adductors = [{'LAT'}; {'PECM3'}; {'TMAJ'}; {'SUBSC'}; {'CORB'}; {'LVS'}; {'RMN'}; {'RMJ1'}; {'RMJ2'}; {'PMN'}];
-    muscleLists.internal_rotators = [{'SUBSC'}; {'LAT'}; {'TMAJ'}; {'PECM1'}; {'PECM2'}; {'PECM3'}];
-    muscleLists.flexors = [{'PECM1'}; {'DELT1'}; {'CORB'}; {'TRP1'}; {'TRP4'}; {'SRA1'}; {'SRA2'}; {'SRA3'}];
-    muscleLists.horizontal_adductors = [{'PECM1'}; {'PECM2'}; {'PECM3'}; {'DELT1'}; {'SRA1'}; {'SRA2'}; {'SRA3'}; {'PMN'}];
+    muscleLists.externalRotators = [{'TMIN'}; {'INFSP'}; {'SRA3'}; {'DELT3'}];
+    muscleLists.internalRotators = [{'SUBSC'}; {'TMAJ'}; {'DELT1'}];
+    muscleLists.elevators = [{'DELT1'}; {'DELT1'}; {'DELT3'}; {'SUPSP'}; {'PECM1'}; {'CORB'}];
+    muscleLists.horizontalAdductors = [{'PECM1'}; {'PECM2'}; {'PECM3'}];
     
     %Loop through muscle groups and adjust strength by the listed scale
     %factors for each set of muscles
@@ -67,7 +52,7 @@ function ShoulderStrengthSims_1_GenerateModels(baselineModel,scaleFactors)
             clear k
             %Save the new model to the output directory
             copyModel.finalizeConnections();
-            copyModel.print([outputDir,'\',muscleGroups{m},'_strength',num2str(scaleFactors(s)*100),'.osim']);
+            copyModel.print([modelPath,muscleGroups{m},'_strength',num2str(scaleFactors(s)*100),'.osim']);
             %Cleanup
             clear copyModel
         end

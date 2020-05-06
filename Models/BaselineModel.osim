@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <OpenSimDocument Version="40000">
-	<Model name="WUShoulderModel">
+	<Model name="FullShoulderModel_None">
 		<defaults>
 			<Thelen2003Muscle name="default">
 				<!--The set of points defining the path of the actuator.-->
@@ -219,7 +219,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.1 0.135 0.08</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.10000000000000001 0.13500000000000001 0.080000000000000002</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="ThoraxSRA">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -244,7 +245,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.05 0.1 0.065</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.050000000000000003 0.10000000000000001 0.065000000000000002</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="ThoraxSRA2">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -269,7 +271,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.075 0.11 0.065</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.074999999999999997 0.11 0.065000000000000002</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="ThoraxLAT">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -294,7 +297,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.075 0.11 0.065</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.074999999999999997 0.11 0.065000000000000002</dimensions>
 							</WrapEllipsoid>
 						</objects>
 					</WrapObjectSet>
@@ -440,7 +444,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.03 0.03 0.05</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.029999999999999999 0.029999999999999999 0.050000000000000003</dimensions>
 							</WrapEllipsoid>
 							<WrapCylinder name="TRIlongglen">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -597,7 +602,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.02 0.02 0.02</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.02 0.02 0.02</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="INFSP_and_TMIN_hum_head">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -622,7 +628,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.02 0.025 0.02</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.02 0.025000000000000001 0.02</dimensions>
 							</WrapEllipsoid>
 							<WrapCylinder name="TMINhum">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -675,6 +682,7 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
+								<!--The radius of the sphere.-->
 								<radius>0.024500000000000001</radius>
 							</WrapSphere>
 							<WrapCylinder name="TMAJ_LAThum">
@@ -728,7 +736,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.03 0.02 0.02</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.029999999999999999 0.02 0.02</dimensions>
 							</WrapEllipsoid>
 							<WrapCylinder name="PEC12hum">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -781,6 +790,7 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
+								<!--The radius of the sphere.-->
 								<radius>0.02</radius>
 							</WrapSphere>
 							<WrapCylinder name="PEC3hum">
@@ -862,6 +872,7 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
+								<!--The radius of the sphere.-->
 								<radius>0.029999999999999999</radius>
 							</WrapSphere>
 							<WrapCylinder name="CORBhum">
@@ -915,7 +926,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.035 0.02 0.02</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.035000000000000003 0.02 0.02</dimensions>
 							</WrapEllipsoid>
 							<WrapCylinder name="TRI">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -968,7 +980,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.02 0.02 0.02</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.02 0.02 0.02</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="BIClong">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -993,7 +1006,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.025 0.02 0.02</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.025000000000000001 0.02 0.02</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="Elbow_BIC_BRD">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1018,7 +1032,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.015 0.015 0.1</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.014999999999999999 0.014999999999999999 0.10000000000000001</dimensions>
 							</WrapEllipsoid>
 							<WrapEllipsoid name="Elbow_PT_ECRL">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1043,7 +1058,8 @@
 										<representation>3</representation>
 									</SurfaceProperties>
 								</Appearance>
-								<dimensions> 0.018 0.025 0.035</dimensions>
+								<!--The length of the radii of the ellipsoid.-->
+								<dimensions>0.017999999999999999 0.025000000000000001 0.035000000000000003</dimensions>
 							</WrapEllipsoid>
 						</objects>
 						<groups />
@@ -2898,7 +2914,7 @@
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
 							<translation>-0.0095499999999999995 -0.034000000000000002 0.0089999999999999993</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-1.5708 0 0.523599</orientation>
+							<orientation>-1.5708 0 0.52359900000000004</orientation>
 						</PhysicalOffsetFrame>
 					</frames>
 					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
@@ -3812,187 +3828,9 @@
 		<!--Forces in the model (includes Actuators).-->
 		<ForceSet name="forceset">
 			<objects>
-				<CoordinateLimitForce name="shoulder_elv_ligaments">
+				<DeGrooteFregly2016Muscle name="LVS">
 					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>shoulder_elv</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>100</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>150</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>100</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>30</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>542.84230000000002</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="shoulder_elv_damping">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>shoulder_elv</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>1e-08</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>190</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>1e-08</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>190</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0.001745</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>1</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="elv_angle_ligaments">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>elv_angle</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>100</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>100</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>100</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>-60</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>545.44709999999998</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="elv_angle_damping">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>elv_angle</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>1e-08</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>190</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>1e-08</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>190</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0.001745</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>1</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="shoulder_rot_ligaments">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>shoulder_rot</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>100</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>-10</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>100</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>-60</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>485.46600000000001</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="shoulder_rot_damping">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>shoulder_rot</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>1e-08</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>190</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>1e-08</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>190</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0.001745</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>1</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="elbow_flexion_ligaments">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>elbow_flexion</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>0.30370000000000003</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>85</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>100</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>14</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>139.5813</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="elbow_flexion_damping">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>elbow_flexion</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>1e-08</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>190</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>1e-08</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>190</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0.001745</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>1</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="pro_sup_ligaments">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>pro_sup</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>50</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>60</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>50</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>-60</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>430.11860000000001</transition>
-				</CoordinateLimitForce>
-				<CoordinateLimitForce name="pro_sup_damping">
-					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
-					<appliesForce>false</appliesForce>
-					<!--Coordinate (name) to be limited.-->
-					<coordinate>pro_sup</coordinate>
-					<!--Stiffness of the passive limit force when coordinate exceeds upper limit. Note, rotational stiffness expected in N*m/degree.-->
-					<upper_stiffness>1e-08</upper_stiffness>
-					<!--The upper limit of the coordinate range of motion (rotations in degrees).-->
-					<upper_limit>190</upper_limit>
-					<!--Stiffness of the passive limit force when coordinate exceeds lower limit. Note, rotational stiffness expected in N*m/degree.-->
-					<lower_stiffness>1e-08</lower_stiffness>
-					<!--The lower limit of the coordinate range of motion (rotations in degrees).-->
-					<lower_limit>190</lower_limit>
-					<!--Damping factor on the coordinate's speed applied only when limit is exceeded. For translational has units N/(m/s) and rotational has Nm/(degree/s)-->
-					<damping>0.001745</damping>
-					<!--Transition region width in the units of the coordinate (rotations in degrees). Dictates the transition from zero to constant stiffness as coordinate exceeds its limit.-->
-					<transition>1</transition>
-				</CoordinateLimitForce>
-				<Millard2012EquilibriumMuscle name="LVS">
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4017,11 +3855,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4036,40 +3869,26 @@
 					<tendon_slack_length>0.0052168109293535001</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="LVS_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="LVS_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="LVS_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="LVS_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="TRP1">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="TRP1">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4094,16 +3913,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SpineCyl</wrap_object>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4118,40 +3927,26 @@
 					<tendon_slack_length>0.0154564093869237</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="TRP1_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="TRP1_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="TRP1_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="TRP1_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="TRP2">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="TRP2">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4176,16 +3971,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SpineCyl2</wrap_object>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4200,40 +3985,26 @@
 					<tendon_slack_length>0.044218348811181203</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="TRP2_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="TRP2_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="TRP2_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="TRP2_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="TRP3">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="TRP3">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4258,11 +4029,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4277,40 +4043,26 @@
 					<tendon_slack_length>0.019743271819499801</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="TRP3_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="TRP3_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="TRP3_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="TRP3_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="TRP4">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="TRP4">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4335,20 +4087,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SpineCyl3</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-									<!--The range of indices to use to compute the path over the wrap object.-->
-									<range>-1 -1</range>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4363,40 +4101,26 @@
 					<tendon_slack_length>0.0050000000000000001</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="TRP4_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="TRP4_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="TRP4_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="TRP4_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="RMN">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="RMN">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4421,16 +4145,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SpineCyl2</wrap_object>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4445,40 +4159,26 @@
 					<tendon_slack_length>0.022972763566619502</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="RMN_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="RMN_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="RMN_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="RMN_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="RMJ1">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="RMJ1">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4503,16 +4203,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SpineCyl3</wrap_object>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4527,40 +4217,26 @@
 					<tendon_slack_length>0.0243830278041587</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="RMJ1_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="RMJ1_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="RMJ1_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="RMJ1_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="RMJ2">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="RMJ2">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4585,16 +4261,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SpineCyl3</wrap_object>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4609,40 +4275,26 @@
 					<tendon_slack_length>0.045992654082934598</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="RMJ2_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="RMJ2_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="RMJ2_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="RMJ2_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="SRA1">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="SRA1">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4667,18 +4319,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>ThoraxSRA</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4693,40 +4333,26 @@
 					<tendon_slack_length>0.069800619792921903</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="SRA1_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="SRA1_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="SRA1_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="SRA1_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="SRA2">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="SRA2">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4751,18 +4377,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>ThoraxSRA</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4777,40 +4391,26 @@
 					<tendon_slack_length>0.042098719661392399</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="SRA2_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="SRA2_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="SRA2_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="SRA2_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="SRA3">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="SRA3">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4835,18 +4435,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>ThoraxSRA2</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4861,40 +4449,26 @@
 					<tendon_slack_length>0.0087584648393928804</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="SRA3_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="SRA3_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="SRA3_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="SRA3_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="SBCL">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="SBCL">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -4919,11 +4493,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -4938,40 +4507,26 @@
 					<tendon_slack_length>0.044010927309290501</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="SBCL_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="SBCL_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="SBCL_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="SBCL_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="PMN">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="PMN">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5010,40 +4565,26 @@
 					<tendon_slack_length>0.0050000000000000001</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="PMN_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="PMN_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="PMN_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="PMN_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="DELT1">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="DELT1">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5074,11 +4615,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5093,40 +4629,26 @@
 					<tendon_slack_length>0.031300000000000001</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.383972435439</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="DELT1_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="DELT1_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="DELT1_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="DELT1_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="DELT2">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="DELT2">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5163,11 +4685,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5182,40 +4699,26 @@
 					<tendon_slack_length>0.046699999999999998</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.26179938779900003</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="DELT2_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="DELT2_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="DELT2_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="DELT2_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="DELT3">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="DELT3">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5252,11 +4755,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5271,40 +4769,26 @@
 					<tendon_slack_length>0.097500000000000003</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.31415926535900002</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="DELT3_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="DELT3_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="DELT3_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="DELT3_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="SUPSP">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="SUPSP">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5341,18 +4825,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>SUPSP</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5367,40 +4839,26 @@
 					<tendon_slack_length>0.024799999999999999</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.12217304764</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="SUPSP_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="SUPSP_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="SUPSP_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="SUPSP_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="INFSP">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="INFSP">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5431,22 +4889,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>INFSP</wrap_object>
-								</PathWrap>
-								<PathWrap name="pathwrap_0">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>INFSP_and_TMIN_hum_head</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5461,40 +4903,26 @@
 					<tendon_slack_length>0.033700000000000001</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.32288591161899999</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="INFSP_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="INFSP_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="INFSP_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="INFSP_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="SUBSC">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="SUBSC">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5531,11 +4959,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5550,40 +4973,26 @@
 					<tendon_slack_length>0.0074999999999999997</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.34906585039900001</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="SUBSC_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="SUBSC_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="SUBSC_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="SUBSC_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="TMIN">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="TMIN">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5620,11 +5029,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5639,40 +5043,26 @@
 					<tendon_slack_length>0.1038</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.418879020479</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="TMIN_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="TMIN_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="TMIN_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="TMIN_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="TMAJ">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="TMAJ">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5703,11 +5093,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5722,40 +5107,26 @@
 					<tendon_slack_length>0.053699999999999998</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.27925268031900002</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="TMAJ_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="TMAJ_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="TMAJ_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="TMAJ_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="PECM1">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="PECM1">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5786,11 +5157,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5805,40 +5171,26 @@
 					<tendon_slack_length>0.048000000000000001</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.29670597283900002</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="PECM1_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="PECM1_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="PECM1_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="PECM1_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="PECM2">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="PECM2">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5869,11 +5221,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5888,40 +5235,26 @@
 					<tendon_slack_length>0.095500000000000002</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.43633231299899999</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="PECM2_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="PECM2_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="PECM2_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="PECM2_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="PECM3">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="PECM3">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -5952,11 +5285,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects />
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -5971,40 +5299,26 @@
 					<tendon_slack_length>0.098799999999999999</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.43633231299899999</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="PECM3_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="PECM3_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="PECM3_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="PECM3_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="LAT">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="LAT">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -6035,20 +5349,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>ThoraxLAT</wrap_object>
-									<!--The wrapping method used to solve the path around the wrap object.-->
-									<method>hybrid</method>
-									<!--The range of indices to use to compute the path over the wrap object.-->
-									<range>-1 -1</range>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -6063,40 +5363,26 @@
 					<tendon_slack_length>0.076999999999999999</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.33161255787900001</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="LAT_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="LAT_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="LAT_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="LAT_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
-				<Millard2012EquilibriumMuscle name="CORB">
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
+				<DeGrooteFregly2016Muscle name="CORB">
+					<!--Flag indicating whether the force is applied or not. If true the forceis applied to the MultibodySystem otherwise the force is not applied.NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant that force was not being applied. Thus, if 'isDisabled' is true, then 'appliesForce` is false.-->
+					<appliesForce>true</appliesForce>
 					<!--Minimum allowed value for control signal. Used primarily when solving for control values.-->
 					<min_control>0.01</min_control>
 					<!--Maximum allowed value for control signal. Used primarily when solving for control values.-->
@@ -6121,20 +5407,6 @@
 							</objects>
 							<groups />
 						</PathPointSet>
-						<!--The wrap objects that are associated with this path-->
-						<PathWrapSet>
-							<objects>
-								<PathWrap name="pathwrap">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>CORBhum</wrap_object>
-								</PathWrap>
-								<PathWrap name="pathwrap_0">
-									<!--A WrapObject that this PathWrap interacts with.-->
-									<wrap_object>TMAJ_LAT_PEC_CORBhh</wrap_object>
-								</PathWrap>
-							</objects>
-							<groups />
-						</PathWrapSet>
 						<!--Default appearance attributes for this GeometryPath-->
 						<Appearance>
 							<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
@@ -6149,46 +5421,30 @@
 					<tendon_slack_length>0.061499999999999999</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
+					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
+					<max_contraction_velocity>10</max_contraction_velocity>
 					<!--Compute muscle dynamics ignoring tendon compliance. Tendon is assumed to be rigid.-->
 					<ignore_tendon_compliance>true</ignore_tendon_compliance>
-					<!--Activation lower bound.-->
-					<minimum_activation>0.01</minimum_activation>
-					<!--Active-force-length curve.-->
-					<ActiveForceLengthCurve name="CORB_ActiveForceLengthCurve">
-						<!--Minimum value of the active-force-length curve-->
-						<minimum_value>0</minimum_value>
-					</ActiveForceLengthCurve>
-					<!--Force-velocity curve.-->
-					<ForceVelocityCurve name="CORB_ForceVelocityCurve">
-						<!--Curve slope at the maximum normalized concentric (shortening) velocity (normalized velocity of -1)-->
-						<concentric_slope_at_vmax>0</concentric_slope_at_vmax>
-						<!--Curve slope just before reaching concentric_slope_at_vmax-->
-						<concentric_slope_near_vmax>0.25</concentric_slope_near_vmax>
-						<!--Curve slope at isometric (normalized velocity of 0)-->
-						<isometric_slope>5</isometric_slope>
-						<!--Curve slope at the maximum normalized eccentric (lengthening) velocity (normalized velocity of 1)-->
-						<eccentric_slope_at_vmax>0</eccentric_slope_at_vmax>
-						<!--Curve slope just before reaching eccentric_slope_at_vmax-->
-						<eccentric_slope_near_vmax>0.14999999999999999</eccentric_slope_near_vmax>
-						<!--Curve value at the maximum normalized eccentric contraction velocity-->
-						<max_eccentric_velocity_force_multiplier>1.3999999999999999</max_eccentric_velocity_force_multiplier>
-					</ForceVelocityCurve>
-					<!--Passive-force-length curve.-->
-					<FiberForceLengthCurve name="CORB_FiberForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</FiberForceLengthCurve>
-					<!--Tendon-force-length curve.-->
-					<TendonForceLengthCurve name="CORB_TendonForceLengthCurve">
-						<!--All properties of this object have their default values.-->
-					</TendonForceLengthCurve>
-				</Millard2012EquilibriumMuscle>
+					<!--Compute muscle dynamics ignoring activation dynamics. Activation is equivalent to excitation.-->
+					<ignore_activation_dynamics>false</ignore_activation_dynamics>
+					<!--Smaller value means activation can change more rapidly (units: seconds).-->
+					<activation_time_constant>0.01</activation_time_constant>
+					<!--Smaller value means activation can decrease more rapidly (units: seconds).-->
+					<deactivation_time_constant>0.040000000000000001</deactivation_time_constant>
+					<!--Value of activation in the default state returned by initSystem().-->
+					<default_activation>0.050000000000000003</default_activation>
+					<!--The linear damping of the fiber (default: 0).-->
+					<fiber_damping>0.10000000000000001</fiber_damping>
+					<!--Tendon strain at a tension of 1 normalized force.-->
+					<tendon_strain_at_one_norm_force>0.049000000000000002</tendon_strain_at_one_norm_force>
+				</DeGrooteFregly2016Muscle>
 			</objects>
 			<groups>
 				<ObjectGroup name="Scapulothoracic">
-					<members> SBCL SRA1 SRA2 SRA3 TRP1 TRP2 TRP3 TRP4 LVS RMN RMJ1 RMJ2 PMN</members>
+					<members />
 				</ObjectGroup>
 				<ObjectGroup name="Glenohumeral">
-					<members> DELT1 DELT2 DELT3 INFSP LAT PECM1 PECM2 PECM3 SUBSC SUPSP TMAJ TMIN CORB</members>
+					<members />
 				</ObjectGroup>
 			</groups>
 		</ForceSet>
